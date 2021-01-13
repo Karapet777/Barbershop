@@ -1,0 +1,15 @@
+.app_about_block {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  color: black;
+}
+.app_block_rotet {
+  width: 20px;
+  height: 20px;
+  background-color: black;
+  transform: rotate(45deg);
+  margin: 10px 0;
+}

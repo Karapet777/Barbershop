@@ -1,0 +1,10 @@
+.app-layout {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.app-layout main {
+  padding-top: 60px;
+  flex: 1;
+}

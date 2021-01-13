@@ -1,0 +1,27 @@
+.app-footer-container {
+  background-color: grey;
+  color: white;
+}
+.app-footer-container img {
+  width: 30px;
+  margin: 15px 5px 0;
+}
+.app-footer-block {
+  width: 100%;
+  max-width: 1000px;
+  padding: 10px 0;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  background-color: grey;
+}
+.app_icons_block {
+  text-align: center;
+}
+.company {
+  display: block;
+  margin: 10px 0;
+  padding: 10px 10px;
+  background-color: black;
+  color: white;
+}

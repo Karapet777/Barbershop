@@ -1,0 +1,23 @@
+.app-header-conteiner {
+  background-color: black;
+  width: 100%;
+  position: fixed;
+}
+
+.app-header-conteiner ul {
+  list-style: none;
+  display: flex;
+}
+.app-header-conteiner a {
+  color: white;
+  margin-right: 15px;
+}
+.app-header {
+  height: 60px;
+  align-items: center;
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
