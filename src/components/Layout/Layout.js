@@ -1,16 +1,13 @@
 import React from "react";
 
-
-
-
 import Footer from "../Footer/Footer";
-import "./Layout.css";
+
+import "./Layout.scss";
 
 const Layout = ({ children }) => {
   return (
     <div className="app-layout">
-      <main>{children}
-      </main>
+      <main>{children}</main>
       <Footer />
     </div>
   );

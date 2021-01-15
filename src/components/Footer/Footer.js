@@ -1,10 +1,10 @@
 import React from "react";
 
-import Vk from '../../assets/icons/vk'
+import Vk from "../../assets/icons/vk";
 import FacebookIcon from "../../assets/icons/facebook-icon";
-import Instagram from '../../assets/icons/instagram'
+import Instagram from "../../assets/icons/instagram";
 
-import "./Footer.css";
+import "./Footer.scss";
 
 const Footer = () => {
   return (
@@ -20,15 +20,15 @@ const Footer = () => {
         </div>
         <div className="app-icons-container">
           <p>Давайте дружить!</p>
-          <div className='app-icons-footer-block'>
+          <div className="app-icons-footer-block">
             <a href="https://vk.com/" target="blank">
-              <Vk className='icons' />
+              <Vk className="icons" />
             </a>
             <a href="https://www.facebook.com/" target="blank">
-              <FacebookIcon className='icons' />
+              <FacebookIcon className="icons" />
             </a>
             <a href="https://www.instagram.com/" target="blank">
-              <Instagram className='icons' />
+              <Instagram className="icons" />
             </a>
           </div>
         </div>

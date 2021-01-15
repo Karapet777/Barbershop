@@ -1,16 +1,14 @@
 import React from "react";
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
-
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 import Layout from "./components/Layout/Layout";
-import Header from "./containers/header/Header";
-import Borodinski from "./containers/borodinski/Borodinski";
-import PraceList from './containers/praceList/PraceList'
-import Shop from './containers/shop/Shop'
-import News from './containers/news/News'
+import Header from "./containers/Header/Header";
+import Borodinski from "./containers/Borodinski/Borodinski";
+import PraceList from "./containers/praceList/PraceList";
+import Shop from "./containers/shop/Shop";
+import News from "./containers/news/News";
 
-
-import "./App.css";
+import "./App.scss";
 
 function App() {
   return (
@@ -27,7 +25,6 @@ function App() {
         </Layout>
       </div>
     </Router>
-
   );
 }
 
