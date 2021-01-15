@@ -2,12 +2,12 @@ import React from "react";
 
 import "./AboutUs.css";
 
-const AboutUs = ({ title, info }) => {
+const AboutUs = ({ title, info, className, classInfo }) => {
   return (
-    <div className="app_about_block">
+    <div className={`app-about-block ${className}`}>
       <p>{title}</p>
-      <div className="app_block_rotet"></div>
-      <p>{info}</p>
+      <div className={`app-block-rotet ${classInfo}`}></div>
+      <p className='app-info'>{info}</p>
     </div>
   );
 };

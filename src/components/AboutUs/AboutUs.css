@@ -1,15 +1,19 @@
-.app_about_block {
+.app-about-block {
   padding: 10px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  color: black;
 }
-.app_block_rotet {
+.app-block-rotet {
   width: 20px;
   height: 20px;
-  background-color: black;
+  background-color: white;
   transform: rotate(45deg);
-  margin: 10px 0;
+  margin: 20px 0;
+}
+.app-info{
+  font-family: 'Pacifico', cursive;
+  font-size: 20px;
+  font-weight: 100;
 }

@@ -1,0 +1,49 @@
+.app-shop-container{
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.app-shop-block{
+    display: flex;
+    justify-content: space-between;
+}
+.app-shop-variants{
+    background-color: white;
+    padding: 20px;
+    width: 20%;
+}
+.app-btn-show{
+    padding: 10px 15px;
+    margin: 15px 0;
+    border: 1px solid;
+    border-radius: 12px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 22px;
+}
+.app-btn-show:hover{
+    background-color: black;
+    color: white;
+}
+
+.app-shop-variants{
+    display: inline-flex;
+    flex-direction: column;
+    margin: 20px 0;
+}
+.app-shop-products{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 70%;
+}
+.app-list-product{
+    display: flex;
+    justify-content: space-between;
+}
+.app-title{
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+    color: white;
+    padding: 10px 0;
+}

@@ -1,5 +1,6 @@
 .app-layout {
-  height: 100vh;
+  background: url(../../assets/img/barbershop\ bgrd.png);
+  background-size: cover;
   display: flex;
   flex-direction: column;
   justify-content: space-between;

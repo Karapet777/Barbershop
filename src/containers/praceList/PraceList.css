@@ -1,0 +1,76 @@
+.app-prace-list{
+    width: 100%;
+    max-width: 1000px;
+    margin: 20px auto;
+    color: white;
+}
+
+.title{
+    line-height: 40px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+}
+.app-container-list{
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+
+}
+.app-block-facilities{
+    border: 1px solid white;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+
+.fl-text {
+   padding: 10px;
+}
+.fl-num {
+    padding: 10px;
+
+}
+.block-left{
+    display: flex;
+    justify-content: space-between;
+}
+.bord{
+    border: 1px solid white;
+}
+
+
+.app-container-serv{
+    /* width: 50%; */
+    background-color: transparent;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 15px;
+}
+.app-block-serv{
+    display: flex;
+    align-items: center;
+}
+.app-block-serv p{
+    padding-left: 10px;
+}
+.app-about-inf{
+    display: flex;
+    margin-top: 50px;
+    
+}
+.app-about-inf p{
+    font-family: 'Pacifico', cursive;
+    font-size: 20px;
+}
+.app-about-inf div{
+    padding: 10px;
+}
+.btn-reserv{
+    margin-top: 10px;
+    width: 100%;
+    background-color: transparent;
+    padding: 10px 15px;
+    border: 1px solid white;
+    color: white;
+
+}

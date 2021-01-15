@@ -4,20 +4,29 @@
   position: fixed;
 }
 
-.app-header-conteiner ul {
+.app-header-conteiner ul  {
   list-style: none;
   display: flex;
+  align-items: center;
+
 }
-.app-header-conteiner a {
-  color: white;
+.app-header-conteiner li {
   margin-right: 15px;
+  cursor: pointer;
+  color: white;
+
 }
 .app-header {
   height: 60px;
-  align-items: center;
   width: 100%;
   max-width: 1000px;
   margin: auto;
   display: flex;
   justify-content: space-between;
+  font-family: 'Roboto Slab', serif;
+}
+.app-logo{
+  font-family: 'Dancing Script', cursive;
+  font-size: 30px;
+ 
 }
